@@ -32,7 +32,7 @@
     },
     "appcd_6d0d835b-04d1-4911-a468-a09a3ca69c65": {
       "block_public_access": true,
-      "bucket_name": "/aws/lambdagoblin-mysterio",
+      "bucket_name": "/aws/lambda/goblin-mysterio",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
