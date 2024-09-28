@@ -12,7 +12,7 @@
       "event_source_arn": null,
       "event_source_mapping": [],
       "filename": "",
-      "function_name": "goblin",
+      "function_name": "/aws/lambda/mysterio",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
@@ -32,7 +32,7 @@
     },
     "appcd_6d0d835b-04d1-4911-a468-a09a3ca69c65": {
       "block_public_access": true,
-      "bucket_name": "goblin-mysterio",
+      "bucket_name": "/aws/lambdagoblin-mysterio",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
@@ -45,7 +45,7 @@
       "website_index_document": "index.html"
     },
     "appcd_86ec452a-770a-59bf-87dd-67ed883e25e5": {
-      "name": "mysterio",
+      "name": "/aws/lambda/mysterio",
       "retention_in_days": 7,
       "source": "./modules/aws_cloudwatch_log_group",
       "tags": {
